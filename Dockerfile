@@ -21,14 +21,14 @@ CMD aliddns \
     --domain ${DOMAIN} \
     --redo ${REDO}
     
-CMD aliddns \
+aliddns \
     --id ${AKID} \
     --secret ${AKSCT} \
     auto-update \
     --domain ${DOMAIN1} \
     --redo ${REDO}
     
-CMD aliddns \
+aliddns \
     --id ${AKID} \
     --secret ${AKSCT} \
     auto-update \
