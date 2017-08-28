@@ -20,18 +20,3 @@ CMD aliddns \
     auto-update \
     --domain ${DOMAIN} \
     --redo ${REDO}
-    
-aliddns \
-    --id ${AKID} \
-    --secret ${AKSCT} \
-    auto-update \
-    --domain ${DOMAIN1} \
-    --redo ${REDO}
-    
-aliddns \
-    --id ${AKID} \
-    --secret ${AKSCT} \
-    auto-update \
-    --domain ${DOMAIN2} \
-    --redo ${REDO}
-
